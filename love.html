@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#fff0f5">
+  <meta name="description" content="A little world made with love for Amal.">
+  <title>For Amal, with love ♥</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
+  <main>
+    <section id="site">
+      <nav class="nav">
+        <a href="#home" class="brand">A <span>♥</span> H</a>
+        <div class="nav-links">
+          <a href="#letter">A letter</a><a href="#memories">Memories</a><a href="#games">Little games</a>
+        </div>
+        <button id="logout" class="text-btn" type="button">Lock ♡</button>
+      </nav>
+
+      <section id="home" class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">MY FAVOURITE PERSON</p>
+          <h1>Amal, you make<br>ordinary days <em>magic.</em></h1>
+          <p class="hero-text">If I could keep a collection of my happiest moments, so many of them would have you in them.</p>
+          <a class="primary-btn link-btn" href="#letter">A little something for you <span>↓</span></a>
+        </div>
+        <div class="hero-art">
+          <div class="photo-frame"><div class="photo-placeholder"><span>♡</span><b>Our favourite photo</b><small>Replace this with a photo of us</small></div><div class="tape"></div></div>
+          <div class="floating-note">you + me<br><span>my favourite story</span></div>
+          <div class="sparkle sparkle-a">✦</div><div class="sparkle sparkle-b">✧</div>
+        </div>
+      </section>
+
+      <section id="letter" class="section letter-section">
+        <p class="eyebrow">OPEN WHEN YOU NEED A HUG</p>
+        <h2>A letter for <em>you</em></h2>
+        <article class="letter-card">
+          <div class="letter-top">For my Amal <span>♥</span></div>
+          <p>Hey my love,</p>
+          <p>I made this little corner of the internet just for you, because you deserve something that feels as special as you make my world feel.</p>
+          <p>Thank you for the laughs, the little moments, the memories we keep making, and even the ordinary days that become better just because you're in them. I hope whenever you open this page, you remember how loved you are.</p>
+          <p>And this is only the beginning — there's so much more of our story I want to write with you.</p>
+          <p class="letter-signoff">Always yours,<br><em>hamchouchi</em> ♡</p>
+          <button id="secret-note-btn" class="soft-btn" type="button">Open a tiny secret note ✉</button>
+          <p id="secret-note" class="secret-note hidden">If I had to choose my favourite place, I'd choose wherever I get to be with you. ♥</p>
+        </article>
+      </section>
+
+      <section id="memories" class="section">
+        <p class="eyebrow">LITTLE PIECES OF US</p>
+        <h2>Our memory <em>lane</em></h2>
+        <p class="section-intro">The beginning of our scrapbook. Add your real dates, photos, and stories when you're ready.</p>
+        <div id="memory-list" class="memory-grid">
+          <article class="memory-card"><div class="memory-photo placeholder-photo">♡<small>Photo placeholder</small></div><div class="memory-content"><p class="memory-date">MAY 14, 2026</p><h3>Our first date</h3><p>Write what you remember about that day — where you went, what made you smile, and the little detail you still remember.</p></div></article>
+          <article class="memory-card"><div class="memory-photo placeholder-photo">✿<small>Photo placeholder</small></div><div class="memory-content"><p class="memory-date">A DAY TO REMEMBER</p><h3>One of our best days</h3><p>Add a memory here: the funniest moment, your favourite walk, or a day you wish you could replay.</p></div></article>
+          <article class="memory-card"><div class="memory-photo placeholder-photo">♡<small>Photo placeholder</small></div><div class="memory-content"><p class="memory-date">MORE TO COME</p><h3>Our next adventure</h3><p>This spot is waiting for a new memory we haven't made yet. Let's fill this page with more little adventures.</p></div></article>
+        </div>
+        <p class="private-note">Real memories from the protected memory store will appear here after you configure it on Netlify.</p>
+      </section>
+
+      <section id="games" class="section games-section">
+        <p class="eyebrow">JUST FOR FUN</p>
+        <h2>A few little <em>games</em></h2>
+        <div class="game-grid">
+          <article class="game-card">
+            <div class="game-icon">♡</div><h3>How well do you know us?</h3><p>Answer these tiny questions about our story.</p>
+            <div id="quiz-area"><p id="quiz-question" class="quiz-question">Question 1 of 3: What is the best part of our story?</p><div id="quiz-options" class="quiz-options"><button data-answer="A">A. The little moments</button><button data-answer="B">B. The big adventures</button><button data-answer="C">C. Every moment with you</button></div><p id="quiz-feedback" class="feedback" aria-live="polite"></p><button id="quiz-next" class="soft-btn hidden" type="button">Next question →</button></div>
+          </article>
+          <article class="game-card surprise-card">
+            <div class="game-icon">✦</div><h3>Tap for a little love</h3><p>Whenever you need a smile, open a random reminder.</p>
+            <div id="compliment" class="compliment">You make my world softer and brighter. ♥</div>
+            <button id="compliment-btn" class="primary-btn" type="button">One more, please <span>♡</span></button>
+          </article>
+        </div>
+      </section>
+
+      <section class="final-note">
+        <div class="big-heart">♥</div><p class="eyebrow">TO MY AMAL</p><h2>More memories.<br><em>More us.</em></h2>
+        <p>Whatever comes next, I hope we keep choosing each other, laughing together, and collecting little moments worth remembering.</p>
+        <p class="final-signature">Love, hamchouchi ♡</p>
+      </section>
+      <footer>Made with love, for Amal. <span>♥</span></footer>
+    </section>
+  </main>
+  <audio id="bg-music" loop preload="none"></audio>
+  <button id="music-toggle" class="music-toggle" type="button" aria-label="Toggle music">♫ <span>Music</span></button>
+  <script src="/app.js"></script>
+</body>
+</html>
